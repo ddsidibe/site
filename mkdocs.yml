@@ -1,0 +1,72 @@
+site_name: Désiré SIDIBE #- Professor Université d'Evry, Paris Saclay - Laboratoire IBISC
+site_url: https://github.com/ddsidibe/ddsidibe.github.io
+nav:
+  - Home: index.md
+  - Teaching: teaching.md
+  - Publications: publications.md
+  - Jobs: jobs.md
+  - Projects: projects.md
+  - Students: students.md
+  - About Me: about.md
+  - Contact: contact.md
+  - Research: research.md
+  - Links: links.md
+
+copyright: Copyright &copy; 2023 - Désiré SIIDBE
+
+theme:
+  name: 'material'
+  language: en
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.code.annotate
+    - content.code.copy
+
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: black
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: black
+      accent: "#ff7900"
+
+  icon:
+    logo: fontawesome/solid/users-gear
+
+plugins:
+  - markmap
+  - search:
+      min_search_length: 2
+      lang: en
+  # - tags:
+  #     tags_file: doc_tags.md
+
+extra:
+  generator: true
+
+markdown_extensions:
+  - tables
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
