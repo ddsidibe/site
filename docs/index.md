@@ -22,7 +22,7 @@ Some papers can be downloaded here. If not, do not hesitate to send me an email.
 
 * dblp [profile](https://dblp.uni-trier.de/pid/02/2939.html){:target="_blank"}
 * google scholar [profile](https://scholar.google.fr/citations?user=RuWlFUsAAAAJ&hl=en){:target="_blank"}
-* publications by [years](https://sites.google.com/view/dsidibe/publications){:target="_blank"}
+* publications by [years](publications.md)
 
 
 ## News
